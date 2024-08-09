@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.pipeline import Pipeline
 from app_tracking.logger import App_Logger
 from app_tracking.exception import AppException
-from Utils.utils import FileOperation
+from utils.utils import FileOperation
 from scipy.sparse import save_npz
 
 
@@ -174,7 +174,6 @@ class DataPreprocessing:
             self.logging.log(str(e))
             raise AppException(e,sys) from e
           
-     
      def settingColumnsName(self):
           try:
                self.logging.log("Remove spaces around the column names in the DataFrame")

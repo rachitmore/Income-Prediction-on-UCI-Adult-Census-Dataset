@@ -5,7 +5,7 @@ import contextlib
 from scipy.sparse import load_npz
 from app_tracking.logger import App_Logger
 from app_tracking.exception import AppException
-from Utils.utils import FileOperation
+from utils.utils import FileOperation
 
 
 class RawDataValidation:

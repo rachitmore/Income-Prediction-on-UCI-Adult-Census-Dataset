@@ -8,9 +8,9 @@ Revisions: None
 import sys
 import datetime
 import warnings
-from Pipeline.app_tracking.logger import App_Logger
-from Pipeline.app_tracking.exception import AppException
-from Pipeline.Utils.utils import FileOperation
+from pipeline.app_tracking.logger import App_Logger
+from pipeline.app_tracking.exception import AppException
+from pipeline.utils.utils import FileOperation
 from .src.Stage1_data_ingestion.data_loader import Data_Getter
 from .src.Stage2_DataValidation.DataTypeValidation import RawDataValidation,PrePreocessedDataValidation
 from .src.Stage3_DataPreprocessing.DataTransformation import DataPreprocessing
