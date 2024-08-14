@@ -3,9 +3,9 @@ from scipy.sparse import load_npz,save_npz
 import pandas as pd
 import numpy as np
 import contextlib
-from pipeline.app_tracking.logger import App_Logger
-from pipeline.app_tracking.exception import AppException
-from pipeline.utils.utils import FileOperation
+from Pipeline.app_tracking.logger import App_Logger
+from Pipeline.app_tracking.exception import AppException
+from Pipeline.Utils.utils import FileOperation
 
 
 class IncomePrediction:
